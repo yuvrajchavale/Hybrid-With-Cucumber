@@ -36,8 +36,7 @@ Examples:
 
 @tag2
 Scenario Outline: As admin user i want to add multiple customers
-Given launch Browser
-When launch url "http://webapp.qedgetech.com/"
+Given launch Browser with this url "http://webapp.qedgetech.com/"
 When Wait for user name with "name" and "username"
 When Enter username with "name" and "username" and "admin"
 When Enter password with "name" and "password" and "master"
@@ -66,5 +65,6 @@ Then verify customer table
 When close browser
 Examples:
 |CustomerName|address|city|country|cperson|pnumber|mail|mnumber|note|
-|Ramu1|Ammerpet1|Hyberabad|India|QedgeTech|8765432123|test@gmail.com|9876543217|Supply Selenium books|
-|Ramu4|Ammerpet15|Hyberabad|India|QedgeTech|8765432123|test@gmail.com|9876543217|Supply Selenium books|
+|Yuvraj Chavale|Nagpur|Maharashtra|India|Capgemini|98344644|chawaleyuvraj@gmail.com|9834464435|Capgemini Accesories Parcel|
+|Nitesh Pidurkar|Pune|Maharashtra|India|KPIT|87654321|pidurkarnitesh@gmail.com|9876543247|KPIT Laptop|
+|Rakesh Zade|Wani|Yavatmal|India|Muncipal Corp|88050542|zaderakesh@gmail.com|1545455544|Track the Wani Dengue|
