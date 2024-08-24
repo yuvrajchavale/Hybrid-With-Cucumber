@@ -94,7 +94,7 @@ Ensure the following are installed:
 <ol>
   <li><strong>Clone the repository:</strong>
     <pre>
-    git clone https://github.com/yourusername/Hybrid_Cucumber.git
+    git clone https://github.com/yuvrajchavale/Hybrid-With-Cucumber.git
     cd Hybrid_Cucumber
     </pre>
   </li>
